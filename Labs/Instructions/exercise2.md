@@ -100,7 +100,6 @@ In this task, you will review three core code files that together initialize a F
    ```python
    base = Path(__file__).resolve().parent
    load_dotenv()
-   tracer = init_tracing()
    app = FastAPI()
    ```
    >**load_dotenv():** This function loads the environment variables from a .env file into the Python environment. It ensures that sensitive information like API keys and database credentials are stored securely and can be accessed within the app.
